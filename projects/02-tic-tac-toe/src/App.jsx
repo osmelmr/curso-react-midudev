@@ -1,4 +1,4 @@
-import Tablero from './components/tablero'
+import Tablero from './components/Tablero'
 
 function App() {
 
