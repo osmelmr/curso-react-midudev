@@ -1,0 +1,66 @@
+.tw-followUser {
+    display:flex;
+    align-items:center;
+    color:#fff;
+    font-size:.8rem;
+    justify-content: space-between;
+}
+
+.tw-followUser-header{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.tw-followUser-info {
+    display:flex;
+    flex-direction:column;
+}
+
+.tw-followUser-infoUsername {
+    opacity: .6;
+}
+
+.tw-followUser-avatar {
+    width: 48px;
+    height:48px;
+    border-radius:100px;
+}
+
+.tw-followUser-button {
+    margin-left: 16px;
+    border: 0;
+    border-radius:999px;
+    padding: 6px 16px;
+    font-weight:bold;
+    
+}
+
+.isFollowing {
+    background: transparent;
+    border: 1px solid white;
+    color:white;
+    width: 140px;
+
+}
+.dejarDeSeguir{
+    display:none;
+}
+
+.isFollowing:hover {
+    background:rgba(255, 0, 0, 0.1);
+    border: 1px solid red;
+    color:red;
+}
+
+.isFollowing:hover .siguiendo{
+    display:none;
+}
+.isFollowing:hover .dejarDeSeguir{
+    display:block;
+}
+.tw-followUser-aside {
+    min-width: 160px;
+    display:flex;
+    justify-content:end;
+}
